@@ -11,30 +11,6 @@ public class Vehiculo {
         this.motor = motor;
     }
     
-    public String getMarca(){
-        return this.marca;
-    }
-    
-    public double getPrecio(){
-        return this.precio;
-    }
-    
-    public String getMotor(){
-        return this.motor;
-    }
-    
-    public void setMarca(String marca){
-        this.marca = marca;
-    }
-    
-    public void setPrecio(double precio){
-        this.precio = precio;
-    }
-    
-    public void setMotor(String motor){
-        this.motor = motor;
-    }
-    
     @Override
     public String toString(){
         return "Marca = " + this.marca + "\n" +
