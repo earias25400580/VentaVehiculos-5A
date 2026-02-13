@@ -3,15 +3,14 @@ public class Vehiculo {
     private String marca;
     private double precio;
     private String motor;
+
     
-    // Constructor
     public Vehiculo(String marca, double precio, String motor){
         this.marca = marca;
         this.precio = precio;
         this.motor = motor;
     }
     
-    // Getters (porque encapsulamiento, no seas salvaje)
     public String getMarca(){
         return this.marca;
     }
@@ -24,7 +23,6 @@ public class Vehiculo {
         return this.motor;
     }
     
-    // Setters
     public void setMarca(String marca){
         this.marca = marca;
     }
